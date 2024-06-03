@@ -1,0 +1,28 @@
+# Skip .NET Core temporary files
+/bin/
+/obj/
+
+# Skip .NET Core user specific files
+/.vs/
+*.user
+
+# Miscellaneous
+*.cache
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Azure Functions localsettings file
+local.settings.json
+
+# Visual Studio Code
+.vscode/
+
+# Ignore Rider directory
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.ide/
