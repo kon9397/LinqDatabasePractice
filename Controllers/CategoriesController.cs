@@ -1,7 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using LinqDatabasePractice.Models;
-using System.Collections.Generic;
-using System.Linq;
 using LinqDatabasePractice.DTO;
 using LinqDatabasePractice.Interfaces;
 
@@ -18,17 +15,12 @@ namespace LinqDatabasePractice.Controllers
             _categoryService = categoryService;
         }
 
+        // GET: api/categories
         [HttpGet]
         public ActionResult<IEnumerable<CategoryDTO>> GetCategories()
         {
             var categories = _categoryService.GetAllCategories();
-
-            var categoryDTOs = categories.Select(category => new CategoryDTO {
-                Id = category.Id,
-                Name = category.Name
-            }).ToList();
-
-            return Ok(categoryDTOs);
+            return Ok(categories);
         }
 
         // GET: api/categories/{id}
@@ -42,30 +34,16 @@ namespace LinqDatabasePractice.Controllers
                 return NotFound();
             }
 
-            return new CategoryDTO
-            {
-                Id = category.Id,
-                Name = category.Name
-            };
+            return category;
         }
 
         // POST: api/categories
         [HttpPost]
         public ActionResult<CategoryDTO> PostCategory([FromBody] CategoryDTO categoryDTO)
         {
-            Category category = new Category 
-            {
-                Name = categoryDTO.Name
-            };
-            _categoryService.CreateCategory(category);
+            var createdCategory = _categoryService.CreateCategory(categoryDTO);
 
-            var createdCategoryDTO = new CategoryDTO 
-            {
-                Id = category.Id,
-                Name = category.Name
-            };
-
-            return CreatedAtAction(nameof(GetCategory), new { id = createdCategoryDTO.Id }, createdCategoryDTO);
+            return CreatedAtAction(nameof(GetCategory), new { id = createdCategory.Id }, createdCategory);
         }
     }
 }

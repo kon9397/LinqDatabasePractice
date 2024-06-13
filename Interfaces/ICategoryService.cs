@@ -1,10 +1,11 @@
-﻿using LinqDatabasePractice.Models;
+﻿using LinqDatabasePractice.DTO;
+using LinqDatabasePractice.Models;
 
 namespace LinqDatabasePractice.Interfaces;
 
 public interface ICategoryService
 {
-    IEnumerable<Category> GetAllCategories();
-    Category GetCategory(int id);
-    Category CreateCategory(Category category);
+    IEnumerable<CategoryDTO> GetAllCategories();
+    CategoryDTO GetCategory(int id);
+    CategoryDTO CreateCategory(CategoryDTO category);
 }

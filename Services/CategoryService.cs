@@ -1,4 +1,6 @@
-﻿using LinqDatabasePractice.Interfaces;
+﻿using AutoMapper;
+using LinqDatabasePractice.DTO;
+using LinqDatabasePractice.Interfaces;
 using LinqDatabasePractice.Models;
 
 namespace LinqDatabasePractice.Services;
@@ -6,28 +8,37 @@ namespace LinqDatabasePractice.Services;
 public class CategoryService : ICategoryService
 {
     private readonly AppDbContext _context;
+    private readonly IMapper _mapper;
 
-    public CategoryService(AppDbContext context)
+    public CategoryService(AppDbContext context, IMapper mapper)
     {
         _context = context;
+        _mapper = mapper;
     }
 
-    public IEnumerable<Category> GetAllCategories()
+    public IEnumerable<CategoryDTO> GetAllCategories()
     {
-        return _context.Categories.ToList();
+        var categories = _context.Categories.ToList();
+        return _mapper.Map<IEnumerable<CategoryDTO>>(categories);
     }
 
-    public Category GetCategory(int id)
+    public CategoryDTO GetCategory(int id)
     {
         var category = _context.Categories.Find(id);
-        return category;
+        if (category == null)
+        {
+            return null;
+        }
+
+        return _mapper.Map<CategoryDTO>(category);
     }
 
-    public Category CreateCategory(Category category)
+    public CategoryDTO CreateCategory(CategoryDTO categoryDTO)
     {
+        var category = _mapper.Map<Category>(categoryDTO);
         _context.Categories.Add(category);
         _context.SaveChanges();
 
-        return category;
+        return _mapper.Map<CategoryDTO>(category);
     }
 }

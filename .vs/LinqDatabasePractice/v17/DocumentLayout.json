@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|c:\\users\\kostiantyn.solohub\\source\\repos\\linqdatabasepractice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|c:\\users\\kostiantyn.solohub\\source\\repos\\linqdatabasepractice\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|solutionrelative:dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|c:\\users\\kostiantyn.solohub\\source\\repos\\linqdatabasepractice\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|solutionrelative:dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|c:\\users\\kostiantyn.solohub\\source\\repos\\linqdatabasepractice\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|solutionrelative:interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|c:\\users\\kostiantyn.solohub\\source\\repos\\linqdatabasepractice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|c:\\users\\kostiantyn.solohub\\source\\repos\\linqdatabasepractice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|c:\\users\\kostiantyn.solohub\\source\\repos\\linqdatabasepractice\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|solutionrelative:interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|c:\\users\\kostiantyn.solohub\\source\\repos\\linqdatabasepractice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24A8FCF4-A85E-42A8-9552-9CC4BBE329BA}|LinqDatabasePractice.csproj|c:\\users\\kostiantyn.solohub\\source\\repos\\linqdatabasepractice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +78,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRegistrationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\DTO\\UserRegistrationDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserRegistrationDTO.cs",
+              "ToolTip": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\DTO\\UserRegistrationDTO.cs",
+              "RelativeToolTip": "DTO\\UserRegistrationDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:34:32.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\DTO\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\DTO\\UserLoginDTO.cs",
+              "RelativeToolTip": "DTO\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:34:31.437Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:34:29.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:34:26.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:34:24.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
@@ -70,12 +159,11 @@
               "RelativeToolTip": "Services\\ProductService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:27:29.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:27:29.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IProductService.cs",
@@ -88,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "20240530081108_AddCategoryAndCategoryId.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Migrations\\20240530081108_AddCategoryAndCategoryId.cs",
               "RelativeDocumentMoniker": "Migrations\\20240530081108_AddCategoryAndCategoryId.cs",
@@ -96,12 +184,11 @@
               "RelativeToolTip": "Migrations\\20240530081108_AddCategoryAndCategoryId.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T08:11:08.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T08:11:08.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -109,12 +196,11 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T08:07:57.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T08:07:57.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
@@ -122,29 +208,24 @@
               "RelativeToolTip": "Controllers\\CategoriesController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T08:01:09.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T08:01:09.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T07:56:02.153Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -152,12 +233,11 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T07:14:22.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T07:14:22.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -165,12 +245,11 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T11:54:46.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T11:54:46.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -178,12 +257,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAgwAwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T11:48:20.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T11:48:20.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "20240523120440_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Migrations\\20240523120440_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20240523120440_InitialCreate.cs",
@@ -191,12 +269,11 @@
               "RelativeToolTip": "Migrations\\20240523120440_InitialCreate.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T12:04:40.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T12:04:40.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -204,12 +281,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-23T11:56:47.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T11:56:47.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\kostiantyn.solohub\\source\\repos\\LinqDatabasePractice\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
@@ -217,8 +293,7 @@
               "RelativeToolTip": "Models\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T11:55:41.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T11:55:41.216Z"
             }
           ]
         }

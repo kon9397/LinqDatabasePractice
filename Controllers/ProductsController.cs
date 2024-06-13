@@ -20,7 +20,7 @@ namespace LinqDatabasePractice.Controllers
 
         // GET: api/products
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<object>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProducts()
         {
             var products = await _productService.GetProductsAsync();
             return Ok(products);
@@ -28,7 +28,7 @@ namespace LinqDatabasePractice.Controllers
 
         // GET: api/products/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<object>> GetProduct(int id)
+        public async Task<ActionResult<ProductDTO>> GetProduct(int id)
         {
             var product = await _productService.GetProductAsync(id);
             if (product == null)
@@ -40,17 +40,17 @@ namespace LinqDatabasePractice.Controllers
 
         // POST: api/products
         [HttpPost]
-        public async Task<ActionResult<Product>> PostProduct(Product product)
+        public async Task<ActionResult> PostProduct(ProductDTO productDto)
         {
-            var createdProduct = await _productService.CreateProductAsync(product);
-            return CreatedAtAction(nameof(GetProduct), new { id = createdProduct.Id }, createdProduct);
+            var createdProduct = await _productService.CreateProductAsync(productDto);
+            return Accepted();
         }
 
         // PUT: api/products/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProduct(int id, [FromBody] Product product)
+        public async Task<IActionResult> PutProduct(int id, [FromBody] ProductDTO productDto)
         {
-            var updated = await _productService.UpdateProductAsync(id, product);
+            var updated = await _productService.UpdateProductAsync(id, productDto);
             if (!updated)
             {
                 return NotFound();

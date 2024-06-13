@@ -4,75 +4,59 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 
 namespace LinqDatabasePractice.Services
 {
     public class ProductService : IProductService
     {
         private readonly AppDbContext _context;
+        private readonly IMapper _mapper;
 
-        public ProductService(AppDbContext context)
+        public ProductService(AppDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
-        public async Task<IEnumerable<object>> GetProductsAsync()
+        public async Task<IEnumerable<ProductDTO>> GetProductsAsync()
         {
-            return await _context.Products
-                .Select(p => new
-                {
-                    p.Id,
-                    p.Name,
-                    p.Price,
-                    CategoryName = _context.Categories
-                        .Where(c => c.Id == p.CategoryId)
-                        .Select(c => c.Name)
-                        .FirstOrDefault()
-                })
-                .ToListAsync();
+            var products =  await _context.Products.ToListAsync();
+
+            return _mapper.Map<List<ProductDTO>>(products);
         }
 
-        public async Task<object> GetProductAsync(int id)
+        public async Task<ProductDTO> GetProductAsync(int id)
         {
-            return await _context.Products
-                .Where(p => p.Id == id)
-                .Select(p => new
-                {
-                    p.Id,
-                    p.Name,
-                    p.Price,
-                    p.CategoryId,
-                    CategoryName = _context.Categories
-                        .Where(c => c.Id == p.CategoryId)
-                        .Select(c => c.Name)
-                        .FirstOrDefault()
-                })
-                .FirstOrDefaultAsync();
+            var product = await _context.Products.FindAsync(id);
+
+            if (product == null)
+            {
+                return null;
+            }
+            
+            return _mapper.Map<ProductDTO>(product);
         }
 
-        public async Task<Product> CreateProductAsync(Product product)
+        public async Task<ProductDTO> CreateProductAsync(ProductDTO productDto)
         {
+            var product = _mapper.Map<Product>(productDto);
+
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
-            return product;
+
+            return _mapper.Map<ProductDTO>(product);
         }
 
-        public async Task<bool> UpdateProductAsync(int id, Product product)
+        public async Task<bool> UpdateProductAsync(int id, ProductDTO productDto)
         {
-            if (id != product.Id)
-            {
-                return false;
-            }
-
             var existingProduct = await _context.Products.FindAsync(id);
             if (existingProduct == null)
             {
                 return false;
             }
 
-            existingProduct.Name = product.Name;
-            existingProduct.Price = product.Price;
-            existingProduct.CategoryId = product.CategoryId;
+            _mapper.Map(productDto, existingProduct);
 
             try
             {

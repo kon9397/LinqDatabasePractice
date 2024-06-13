@@ -85,3 +85,8 @@ C:\Users\kostiantyn.solohub\source\repos\LinqDatabasePractice\obj\Debug\net6.0\r
 C:\Users\kostiantyn.solohub\source\repos\LinqDatabasePractice\obj\Debug\net6.0\LinqDatabasePractice.pdb
 C:\Users\kostiantyn.solohub\source\repos\LinqDatabasePractice\obj\Debug\net6.0\LinqDatabasePractice.genruntimeconfig.cache
 C:\Users\kostiantyn.solohub\source\repos\LinqDatabasePractice\obj\Debug\net6.0\ref\LinqDatabasePractice.dll
+C:\Users\kostiantyn.solohub\source\repos\LinqDatabasePractice\obj\Debug\net6.0\LinqDatabasePractice.sourcelink.json
+C:\Users\kostiantyn.solohub\source\repos\LinqDatabasePractice\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\kostiantyn.solohub\source\repos\LinqDatabasePractice\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kostiantyn.solohub\source\repos\LinqDatabasePractice\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kostiantyn.solohub\source\repos\LinqDatabasePractice\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
